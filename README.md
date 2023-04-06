@@ -29,6 +29,11 @@ pip install ib_insync pandas matplotlib
 - Calculates various metrics, such as moving averages and bar sizes, to detect buy signals.
 - Sends SMS alerts when a buy signal is detected.
 
+## Market Data Subscription
+To run this script, you will need the following market data subscription from Interactive Brokers: Cboe One - Trader Workstation. This subscription provides the necessary data for the script to function correctly.
+
+To subscribe, log in to your Interactive Brokers account, go to the "Account Management" section, and navigate to the "Market Data Subscriptions" page. Find "Cboe One - Trader Workstation" in the list of available subscriptions and follow the instructions to subscribe.
+
 ## Connecting to a Demo Account
 By default, the script connects to a live trading account using port 7497. If you want to use a demo account, you will need to change the port number to 7496.
 
