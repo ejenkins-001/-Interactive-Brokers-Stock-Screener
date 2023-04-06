@@ -12,7 +12,6 @@ This project contains a script that connects to the Interactive Brokers (IB) pla
 
 You can install the required libraries using the following command:
 
-```bash
 pip install ib_insync pandas matplotlib
 
 ## Usage
