@@ -15,6 +15,8 @@ You can install the required libraries using the following command:
 
 pip install ib_insync pandas matplotlib
 
+Download the "nasdaq_screener_1680682414722.csv" file from the repository's main page by clicking on it and then clicking the "Download" button.
+
 ## Usage
 
 1. Replace the "sms_gateway" variable in the script with the actual phone number and SMS gateway you wish to use.
