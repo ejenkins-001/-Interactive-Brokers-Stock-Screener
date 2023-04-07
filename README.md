@@ -16,6 +16,9 @@ You can install the required libraries using the following command:
 
 pip install ib_insync pandas matplotlib
 
+```bash
+pip install pandas ib_insync
+
 Download the "nasdaq_screener_1680682414722.csv" file from the repository's main page by clicking on it and then clicking the "Download" button. Save it in the same directory as your script.
 
 ## Usage
