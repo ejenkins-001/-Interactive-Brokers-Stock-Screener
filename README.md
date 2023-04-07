@@ -12,6 +12,8 @@ This project contains a script that connects to the Interactive Brokers (IB) pla
 - Trader Workstation (TWS) or IB Gateway
 - Market data subscription: Cboe One - Trader Workstation
 
+You can download Trader Workstation from the [Interactive Brokers website](https://www.interactivebrokers.com/en/index.php?f=14099).
+
 You can install the required libraries using the following command:
 
 pip install ib_insync pandas matplotlib
