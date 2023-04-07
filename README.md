@@ -20,11 +20,12 @@ Download the "nasdaq_screener_1680682414722.csv" file from the repository's main
 
 ## Usage
 
-1. Ensure that Trader Workstation or IB Gateway is open and running on your machine. The script requires the Trader Workstation or IB Gateway API to connect to the Interactive Brokers trading account or demo account.
-2. Replace the "sms_gateway" variable in the script with the actual phone number and SMS gateway you wish to use.
-3. Replace the "from_email" and "from_password" variables in the `send_email_to_sms` function with your email address and app password, respectively.
-4. Make sure you have a CSV file containing stock symbols from the Nasdaq stock exchange, and update the path to the file in the `stocks_df` variable in the script.
-5. Run the script using the following command: ib_stock_screener.py
+1. Before running the script, make sure that Trader Workstation or IB Gateway is open and running on your machine. The script connects to TWS or IB Gateway using the TWS API, so it requires TWS or IB Gateway to be running and configured correctly.
+2. Ensure that the socket port in TWS settings matches the port specified in the script (usually 7497 for live accounts or 7496 for paper trading accounts). To check or change the socket port, go to the settings menu in Trader Workstation and look for the API settings.
+3. Replace the "sms_gateway" variable in the script with the actual phone number and SMS gateway you wish to use.
+4. Replace the "from_email" and "from_password" variables in the `send_email_to_sms` function with your email address and app password, respectively.
+5. Make sure you have a CSV file containing stock symbols from the Nasdaq stock exchange, and update the path to the file in the `stocks_df` variable in the script.
+6. Run the script using the following command: ib_stock_screener.py
 
 ## Features
 
