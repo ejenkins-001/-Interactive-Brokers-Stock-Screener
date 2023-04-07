@@ -9,6 +9,7 @@ This project contains a script that connects to the Interactive Brokers (IB) pla
 - pandas
 - matplotlib
 - smtplib
+- Trader Workstation (TWS) or IB Gateway
 - Market data subscription: Cboe One - Trader Workstation
 
 You can install the required libraries using the following command:
