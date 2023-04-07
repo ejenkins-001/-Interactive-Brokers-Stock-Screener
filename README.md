@@ -54,6 +54,6 @@ Copy code
 ib.connect('127.0.0.1', 7496, clientId=1)
 Keep in mind that the data received from a demo account might not be as accurate or up-to-date as a live trading account.
 
-## License
+## Disclaimer
 
-This project is licensed under the [MIT License](LICENSE).
+This script is for educational purposes only. The user is responsible for any potential risks and losses associated with using this script in a live trading environment. Always test your strategies and algorithms with historical data and paper trading before using them in a live environment.
