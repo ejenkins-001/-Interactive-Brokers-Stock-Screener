@@ -81,13 +81,13 @@ def get_historical_data(stock_symbol):
         print(f"No historical data is available for {stock_symbol}")
 
 stocks_df = pd.read_csv('nasdaq_screener_1680682414722.csv')
-top_1000_stocks = stocks_df['Symbol'].tolist()
+nasdaq_stocks = stocks_df['Symbol'].tolist()
 
 def main():
     try:
         print("Connected to IB")
                 
-        for stock_symbol in top_1000_stocks:
+        for stock_symbol in nasdaq_stocks:
             get_historical_data(stock_symbol)
 
         print("Exiting the program")
