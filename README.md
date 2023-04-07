@@ -27,7 +27,7 @@ Download the "nasdaq_screener_1680682414722.csv" file from the repository's main
 ## Features
 
 - Connects to the Interactive Brokers platform using the `ib_insync` library.
-- Analyzes historical data for the top 1000 stocks listed on the Nasdaq stock exchange.
+- Analyzes historical data for stocks listed on the Nasdaq stock exchange.
 - Calculates various metrics, such as moving averages and bar sizes, to detect buy signals.
 - Sends SMS alerts when a buy signal is detected.
 
